@@ -18,7 +18,7 @@ Here are some ideas to get you started:
 
 👾 Pacman Maze
 <picture>
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/bossjobmatt/bossjobmatt/output/pacman-contribution-graph.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/bossjobmatt/bossjobmatt/output/pacman-contribution-graph-dark.svg">
-  <img alt="吃豆人风格贡献图" src="https://raw.githubusercontent.com/bossjobmatt/bossjobmatt/output/pacman-contribution-graph.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/bossjobmatt/bossjobmatt/snake/pacman-contribution-graph.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/bossjobmatt/bossjobmatt/snake/pacman-contribution-graph-dark.svg">
+  <img alt="吃豆人风格贡献图" src="https://raw.githubusercontent.com/bossjobmatt/bossjobmatt/snake/pacman-contribution-graph.svg">
 </picture>
