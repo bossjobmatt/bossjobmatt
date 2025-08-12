@@ -2,7 +2,7 @@ name: Generate Pacman Game
 
 on:
   schedule:
-    - cron: "0 */24 * * *"
+    - cron: "0 */24 * * *" # هر ۲۴ ساعت یک‌بار اجرا می‌شود
   workflow_dispatch:
   push:
     branches:
@@ -32,13 +32,7 @@ jobs:
       - name: Move pacman-contribution-graph.svg to dist/pacman/
         run: |
           mkdir -p dist/pacman
-          shopt -s nullglob
-          files=(pacman-contribution-graph*.svg)
-          if [ ${#files[@]} -gt 0 ]; then
-            mv "${files[@]}" dist/pacman/
-          else
-            echo "No SVG files found to move."
-          fi
+          mv dist/pacman-contribution-graph*.svg dist/pacman/    
 
       - name: Push pacman-contribution-graph.svg to the output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
